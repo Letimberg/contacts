@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rocket Links</title>
+    <link href="../../style/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="pink">
+    <div class="sc-iNezeW fQZJql">
+      <div class="sc-iKmDcA cvEpjc">
+        <div class="sc-ZyMtA cLHDDA"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div>
+        <button class="btn"></button>
+      </div>
+      <img
+        class="avatar"
+        src="https://github.com/letimberg.png"
+        alt="Meu avatar"
+      />
+      <h1>Letimberg Cavalcante</h1>
+      <p class="username">@letimberg</p>
+        <img
+          class="localizacao"
+          data-tip="localizacao"
+          src="../img/loca.svg"
+          alt="LOCALIZACAO"
+          currentitem="false"
+        />Fortaleza, CE, Brasil</
+      >
+
+      <div class="tecnologias">
+        <img
+          data-tip="HTML5"
+          src="../../img/html5.svg"
+          alt="HTML5"
+          currentitem="false"
+        /><img
+          data-tip="CSS3"
+          src="../../img/css3.svg"
+          alt="CSS3"
+          currentitem="false"
+        /><img
+          data-tip="JavaScript"
+          src="../../img/javascript.svg"
+          alt="JavaScript"
+          currentitem="false"
+        /><img
+          data-tip="Node.JS"
+          src="../../img/node.svg"
+          alt="Node.JS"
+          currentitem="false"
+        /><img
+          data-tip="MySQL"
+          src="../../img/mysql.svg"
+          alt="MySQL"
+          currentitem="false"
+        />
+      </div>
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/letimberg-cavalcante/"
+            target="_blank"
+            ><img
+              class="icon"
+              src="../../icon/linkedin-logo.png"
+              alt=""
+            />LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="https://twitter.com/letimberg" target="_blank">
+            <img class="icon" src="../../icon/twitter-logo.png" alt="" />
+            Twitter</a
+          >
+        </li>
+        <li>
+          <a href="https://app.rocketseat.com.br/me/letimberg" target="_blank"
+            ><img class="icon" src="../icon/rocket-logo.jpeg" alt="" />
+            Rocketseat</a
+          >
+        </li>
+        <li>
+          <a href="https://instagram.com/letimberg" target="_blank"
+            ><img class="icon" src="../icon/instagram-logo.png" alt="" />
+            Instagram</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/Letimberg" target="_blank"
+            ><img class="icon" src="../../icon/github-logo.png" alt="" />
+            GitHub</a
+          >
+        </li>
+      </ul>
+
+      <footer>
+        Feito com 💜 pelo
+        <a href="" target="_blank">Leet WildOak</a>
+      </footer>
+    </div>
+  </body>
+</html>
+
+<script>
+  const btn = document.querySelector('.btn')
+  const pink = document.querySelector('.pink')
+
+  btn.onclick = function () {
+    this.classList.toggle('active')
+    pink.classList.toggle('active')
+  }
+</script>
