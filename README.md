@@ -73,7 +73,7 @@ Após a conclusão do projeto, um desafio é lançado visando o crescimento e a 
 
 #### Nesse sentido, foram implementadas as seguintes melhorias:
 
--   Desenvolvemos um botão com a funcionalidade de alternância (toggle) que possibilita a alteração do tema do projeto.
+-   Foi adicionado um botão com a funcionalidade de alternância (toggle) que possibilita a alteração do tema do projeto.
 -   Foi incluído um banner no topo.
 -   Adicionalmente, foi incorporado um campo que lista as tecnologias nas quais o desenvolvedor possui conhecimento.
 
